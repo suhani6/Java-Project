@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2021, 6:34:43 PM
+    Author     : suhaniarora
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:8vh;
+    background: #F5F5F5;
+    border-bottom: 1px solid #E8E8E8;
+}
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+}
+.navbarleft{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:5px 10px;
+    cursor:pointer;
+}
+.navbarleft{
+    color:#7A7A7A;
+}
+.navbarleft a{
+    text-decoration: none;
+    color:#7A7A7A;
+}
+.navbarleft span{
+    color:#34bba3;
+}
+.navbarleft img{
+    height:100%;
+    width:50px;
+    margin-right: 5px;
+}
+.navbarright{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+    padding:5px 10px;
+}
+.navbarright span{
+    margin-left:10px;
+    padding:5px 10px;
+}
+.navbarright span a{
+    text-decoration: none;
+    color:#7A7A7A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.navbarright span a:hover{
+    color:#34bba3;
+}

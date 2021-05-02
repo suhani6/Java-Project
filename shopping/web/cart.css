@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2021, 5:15:50 PM
+    Author     : suhaniarora
+*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartheader{
+    text-align: center;
+    font-size: 2rem;
+    color:#34bba3;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cartheader::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border-top:2px solid #34bba3;
+}
+.cartcontainer{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.cartitem{
+    display: flex;
+    width:100%;
+    max-width: 600px;
+    height: 110px;
+    margin:10px 0px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.12);
+    border-radius:5px;
+}
+.cartitemLeft{
+    display: flex;
+    justify-content: center;
+    width:150px;
+}
+.cartitemLeft img{
+    height: 100%;
+}
+.cartitemRight{
+    position: relative;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+.cartitemName{
+    font-weight: 700;
+    font-size:18px;
+    color:#4F4F4F;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cart__itemRight span{
+    font-size: 17px;
+    font-weight: 700;
+    color: grey;
+}
+.remove{
+    position:absolute;
+    top:10%;
+    right: 5%;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.placeOrder{
+    background-color: #34bba3;
+    padding: 10px 10px;
+    color:white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.pay{
+    display: block;
+    text-decoration: none;
+    background-color: #34bba3;
+    padding: 10px 10px;
+    color:white;
+    font-size: 14px;
+}
